@@ -1,4 +1,8 @@
-# Introduction
+def shizuku_version = (the version above)
+implementation "dev.rikka.shizuku:api:$shizuku_version"
+
+// Add this line if you want to support Shizuku
+implementation "dev.rikka.shizuku:provider:$shizuku_version"# Introduction
 
 Shizuku can help normal apps uses system APIs directly with adb/root privileges with a Java process started with app_process.
 
